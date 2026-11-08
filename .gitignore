@@ -1,0 +1,30 @@
+# User inputs, sensitive/local settings, and outputs
+/data/**
+!/data/.gitkeep
+/outputs/**
+!/outputs/.gitkeep
+config.R
+*.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+.Renviron
+.env
+.env.*
+*.log
+.DS_Store
+Thumbs.db
+# Research inputs and generated artifacts should not be committed by default
+*.xlsx
+*.xls
+*.rds
+*.RDS
+*.pdf
+*.docx
+*.tiff
+*.tif
+*.png
+*.jpg
+*.jpeg
+*.zip
+# Allow documentation media only after deliberate review
